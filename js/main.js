@@ -1,0 +1,20 @@
+document.addEventListener('DOMContentLoaded', () => {
+  const btnScrollTop = document.getElementById('btnScrollTop');
+
+  if (btnScrollTop) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 280) {
+        btnScrollTop.classList.add('show');
+      } else {
+        btnScrollTop.classList.remove('show');
+      }
+    });
+
+    btnScrollTop.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+});
