@@ -151,22 +151,6 @@ The live version of **Halikarnas Saat** is deployed on **GitHub Pages**:
 
 👉 **[https://kucukagtas.github.io/halikarnasSaat/](https://kucukagtas.github.io/halikarnasSaat/)**
 
-### Deployment Steps:
-
-1. **Automatic Deployment via GitHub Actions (Recommended):**
-   - The included workflow file [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) triggers automatically on every push to the `main` branch.
-   - In your GitHub repository:
-     1. Go to **Settings** → **Pages**.
-     2. Under **Build and deployment** → **Source**, select **GitHub Actions**.
-     3. Push changes to `main`; the workflow will build and publish your site in seconds.
-
-2. **Manual Branch Deployment (Alternative):**
-   - In your GitHub repository:
-     1. Go to **Settings** → **Pages**.
-     2. Under **Build and deployment** → **Source**, select **Deploy from a branch**.
-     3. Choose **Branch: `main`** and **Folder: `/(root)`**.
-     4. Click **Save**.
-
 ---
 
 ## 📄 License
